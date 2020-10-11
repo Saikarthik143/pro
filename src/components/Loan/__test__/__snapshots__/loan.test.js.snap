@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test when form is submitted renders correctly 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-lg navbar-light"
+    style={
+      Object {
+        "backgroundColor": "#fa983a",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <ul
+        className="nav row nav pills"
+      >
+        <li
+          className="col-sm-3 nav-item text-center"
+        >
+          <a
+            href="/Demo"
+            onClick={[Function]}
+          >
+            <img
+              alt="card"
+              className="card-img-top"
+              src="bank.png"
+              style={
+                Object {
+                  "height": "50px",
+                  "width": "100px",
+                }
+              }
+            />
+          </a>
+        </li>
+        <li
+          class="col-sm-3 nav-item text-center"
+          style={
+            Object {
+              "fontFamily": "David Libre",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          <a
+            className="nav-link btn-outline-light"
+            href="/"
+            onClick={[Function]}
+          >
+            About Us
+          </a>
+        </li>
+        <li
+          className="col-sm-3 nav-item text-center"
+        >
+          <a
+            className="nav-link btn-outline-light"
+            href="/"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontFamily": "David Libre",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            ViewProfile
+          </a>
+        </li>
+        <li
+          className="col-sm-3 nav-item text-center"
+        >
+          <a
+            href="/Login#Login"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-outline-light"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontFamily": "David Libre",
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Logout 
+            </button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div
+    className="bgclr"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-3"
+        />
+        <div
+          className="card m-3 col-6"
+          style={
+            Object {
+              "backgroundColor": "#d0c9c3",
+              "borderRadius": "1.5rem",
+            }
+          }
+        >
+          <br />
+          <h3
+            className="card-header text-center"
+            style={
+              Object {
+                "backgroundColor": "#414654",
+                "borderRadius": "1.5rem",
+                "color": "whitesmoke",
+              }
+            }
+          >
+            Loan Form
+          </h3>
+          <div
+            className="card-body"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <div
+                className="offset-2"
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="accountHolderName"
+                  >
+                    accountHolderName
+                  </label>
+                  <input
+                    className="form-control"
+                    id="accountHolderName"
+                    name="accountHolderName"
+                    onChange={[Function]}
+                    type="accountHolderName"
+                    value={null}
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="loanType"
+                  >
+                    Loan Type
+                  </label>
+                  <select
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value="none"
+                    >
+                      Select Option
+                    </option>
+                    <option
+                      value="Personal/Home Loan"
+                    >
+                      Personal/Home Loan
+                    </option>
+                    <option
+                      value="Education"
+                    >
+                      Education
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="loanAmount"
+                  >
+                    loanAmount
+                  </label>
+                  <input
+                    className="form-control"
+                    id="loanAmount"
+                    name="loanAmount"
+                    onChange={[Function]}
+                    type="loanAmount"
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="loanApplyDate"
+                  >
+                    loanApplyDate
+                  </label>
+                  <div
+                    className="react-datepicker-wrapper"
+                  >
+                    <div
+                      className="react-datepicker__input-container"
+                    >
+                      <input
+                        className="form-control"
+                        disabled={false}
+                        id="loanApplyDate"
+                        name="loanApplyDate"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        readOnly={false}
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="duriation"
+                  >
+                    Duriation
+                  </label>
+                  <input
+                    className="form-control"
+                    id="duriation"
+                    name="duriation"
+                    onChange={[Function]}
+                    type="duriation"
+                  />
+                </div>
+                <div>
+                  <button
+                    className="btn btn-primary mr-1"
+                    id="loansubmit"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
