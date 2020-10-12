@@ -2,8 +2,6 @@ import React from 'react';
 import depo from'../../images/depo.jpg';
 import ty from '../../images/ty.png';
 import { Link } from 'react-router-dom';
-import Depoist from '../Depoist/Deposit';
-
 import bank from '../../../src/images/bank.png';
 
 const Demo=()=>{

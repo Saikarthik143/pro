@@ -1,22 +1,15 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css';
 import axios from 'axios';
-//import { useSelector, useDispatch } from 'react-redux';
-//import { signin } from '../../actions/userActions';
 
-
-const Login=(props)=>{
+const Login=()=>{
     const [userName,setUserName]=useState('');
     const [password,setPassword]=useState('');
-   
     const [userNameErr,setUserNameErr]=useState({});
     const [passwordErr,setPasswordErr]=useState({});
     const [submitVal,setSubmitVal]=useState();
-  //  const userSignin = useSelector(state => state.userSignin);
-  //  const {  userInfo } = userSignin;
-    //const dispatch = useDispatch();
-
+  
     const submitHandler = (e) => {
         e.preventDefault();
         const isValid=formValidation();
@@ -29,13 +22,7 @@ const Login=(props)=>{
               localStorage.setItem('accountType',Response.data[0].account)
               localStorage.setItem('idm',Response.data[0].idm)
               localStorage.setItem('id',Response.data[0].id)
-              //{alert("login suces"+Response.data[0].idm)}
-              
-                // return(<Link to={{pathname:'/DEMO',hash:'#Demo'}}>
-                // {alert("login suces")}
-                //          </Link>)
-                
-    
+            
             }
             else{
                 alert("invalid");
@@ -69,8 +56,6 @@ const Login=(props)=>{
     }
 
     return <div className="bgclr">
-       
-
           <div className="container">
         <div className="row">
             <div className="col-3"></div>

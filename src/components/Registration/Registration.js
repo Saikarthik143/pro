@@ -5,9 +5,8 @@ import 'react-datepicker/dist/react-datepicker.css';
 import axios from 'axios';
 import './Registration.css';
 import {Link} from 'react-router-dom';
-//import { useSelector, useDispatch } from 'react-redux';
-//import {register} from '../../actions/userActions';
-const Registration=(props)=>{
+
+const Registration=()=>{
     const [name,setName]=useState('');
     const [userName,setUserName]=useState('');
     const [password,setPassword]=useState('');
@@ -40,9 +39,7 @@ const Registration=(props)=>{
     const [idnErr,setIdnErr]=useState({});
     const [age,setAge]=useState('');
     const[initialAmount,setinitialAmount]=useState('');
-    //const dispatch=useDispatch();
-    //const userRegister=useSelector(state=>state.userRegister);
-    //const {userInfo}=userRegister;
+    
 
     const array={
         name,

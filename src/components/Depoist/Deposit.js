@@ -6,15 +6,12 @@ import { Link } from 'react-router-dom';
 
 class Deposit extends Component {
     constructor(props){
-        
         super(props)
-        
    this.state = { 
         id:localStorage.getItem('id'),
         accountType:localStorage.getItem('accountType'),
         depoistAmount:'',
         fields:{},
-     
          accountValue:false,
          availableBalance:localStorage.getItem('idm'),
          initialAmount:localStorage.getItem('idm'),
@@ -130,10 +127,6 @@ class Deposit extends Component {
         this.setState({depoistAmount: event.target.value});
       }
     
-
-    // Logout=()=>{
-      //  localStorage.clear();
-   // }
     render() { 
        
         return <div>
@@ -192,9 +185,7 @@ class Deposit extends Component {
   {
 
 this.state.accountValue===true?<div><textarea value={this.state.availableBalance}>value={this.state.availableBalance}</textarea></div>:<textarea value={this.state.availableBalance}>value={this.state.availableBalance}</textarea>
-  }
-  
-        
+  } 
         </div>
   </form>
    </div>

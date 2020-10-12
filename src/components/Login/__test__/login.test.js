@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Enzyme,{shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-//import ApplyLoan from './Components/applyloan';
 import renderer from 'react-test-renderer';
 import {BrowserRouter} from 'react-router-dom';
 import Login from '../Login';

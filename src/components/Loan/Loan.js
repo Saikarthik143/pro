@@ -169,13 +169,6 @@ const Loan=()=>{
             currentExpErr.norate="mention it";
         }
 
-
-
-
-
-
-
-
            if(!duriation){
                duriationErr.notime="mention";
            }
